@@ -2,10 +2,12 @@
 @import url('colors.css');
 
 body {
+  height: 100vh;
   margin: 0;
   font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, var(--dark-blue), var(--blue));
 }
 
 code {
