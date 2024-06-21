@@ -5,12 +5,14 @@ const Header = () => {
         <header className={styled.header}>
             <h1 className="title1">Preenchimento e Visualização de Atividades</h1>
 
-            <nav>
-                <label className="navegation-text">Visualização</label>
-            </nav>  
+            <div className={styled.navUser}>
+                <nav className={styled.nav}>
+                    <label className="navegation-text">Visualização</label>
+                </nav>
 
-            <div className={styled.user}>
-                <label className="label">Nome do usuário</label>
+                <div className={styled.user}>
+                    <label className="label">Nome do usuário</label>
+                </div>
             </div>
         </header>
     )
