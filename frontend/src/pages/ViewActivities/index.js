@@ -1,4 +1,5 @@
 import Input from '../../components/Input';
+import Select from '../../components/Select';
 import styled from './style.module.css';
 
 const ViewActivities = () => {
@@ -6,7 +7,8 @@ const ViewActivities = () => {
         <div className={styled.container}>
 
             <div className={styled.search}>
-                <Input/>
+                <Input className={styled.input}/>
+                <Select/>
             </div>
 
         </div>
