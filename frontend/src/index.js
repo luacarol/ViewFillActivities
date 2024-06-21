@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import NewActivities from './pages/NewActivities';
 import Header from './components/Header/index';
+import ViewActivities from './pages/ViewActivities';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +12,7 @@ root.render(
     <Router>
       <Header/>
       <Routes>
-        <Route path='/' element={<NewActivities />} />
+        <Route path='/' element={<ViewActivities/>} />
       </Routes>
     </Router>
   </React.StrictMode>

@@ -1,0 +1,13 @@
+.container {
+    min-width: 16.625rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.125rem;
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+.input {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
