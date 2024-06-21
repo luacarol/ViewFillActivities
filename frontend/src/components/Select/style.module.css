@@ -10,4 +10,12 @@
     text-decoration: none;
     border: none;
     outline: none;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1rem;
+}
+
+.select option:checked {
+    background-color: var(--white);
+    color: var(--black);
 }
