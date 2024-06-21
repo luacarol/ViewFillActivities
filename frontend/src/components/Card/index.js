@@ -13,7 +13,12 @@ const Card = () => {
             <div className={styled.activitiesRunning}>
                 <label className='label'>Atividade em desenvolvimento:</label>
 
-                <ol>
+                <ol className={styled.list}>
+                    <li className='text'>Criação da tela de rotulagem</li>
+                    <li className='text'>Criação da tela de rotulagem</li>
+                    <li className='text'>Criação da tela de rotulagem</li>
+                    <li className='text'>Criação da tela de rotulagem</li>
+                    <li className='text'>Criação da tela de rotulagem</li>
                     <li className='text'>Criação da tela de rotulagem</li>
                 </ol>
             </div>
@@ -21,7 +26,12 @@ const Card = () => {
             <div className={styled.activitiesToDo}>
                 <label className='label'>Próxima atividade prevista:</label>
 
-                <ol>
+                <ol className={styled.list}>
+                    <li className='text'>Criação da tela de Inferências</li>
+                    <li className='text'>Criação da tela de Inferências</li>
+                    <li className='text'>Criação da tela de Inferências</li>
+                    <li className='text'>Criação da tela de Inferências</li>
+                    <li className='text'>Criação da tela de Inferências</li>
                     <li className='text'>Criação da tela de Inferências</li>
                 </ol>
             </div>

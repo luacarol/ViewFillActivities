@@ -1,25 +1,26 @@
 .container {
-    margin-top: 2rem;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+    justify-items: center;
 }
 
 .search {
-    margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 
-.input {
+.search .input {
     margin-right: 0.5rem;
 }
 
 .cards {
+    max-height: 26rem;
+    overflow-y: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 0.5rem;
+    gap: 1rem;
 }

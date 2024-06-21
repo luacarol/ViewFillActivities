@@ -14,6 +14,9 @@ const ViewActivities = () => {
 
             <div className={styled.cards}>
                 <Card />
+                <Card />
+                <Card />
+                <Card />
             </div>
 
         </div>
