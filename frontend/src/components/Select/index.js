@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from './style.module.css';
 
-const Select = () => {
+const Select = ({ className }) => {
     return (
-        <div className={styled.container}>
+        <div className={`${className} ${styled.container}`}>
             <select className={styled.select}>
                 <option>Funcionário</option>
                 <option>Projeto</option>

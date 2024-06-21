@@ -1,0 +1,39 @@
+.container {
+    width: 26.125rem;
+    height: 28rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background-color: var(--white);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 2rem;
+}
+
+.employeeProject {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.selectContainer {
+    background-color: var(--dark-blue);
+}
+
+.selectContainer select {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.activitiesRunning {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.activitiesToDo {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
