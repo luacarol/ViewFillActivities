@@ -7,7 +7,7 @@ const Header = () => {
 
             <div className={styled.navUser}>
                 <nav className={styled.nav}>
-                    <label className="navegation-text">Visualização</label>
+                    <label className="navegation-text" style={{color: "#00ADEF"}}>Visualização</label>
                 </nav>
 
                 <div className={styled.user}>
