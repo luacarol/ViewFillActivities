@@ -10,3 +10,30 @@ body {
 code {
   font-family: "Quicksand", sans-serif;
 }
+
+/* Typography */
+
+.title1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.title2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.navegation-text {
+  font-size: 0.813rem;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 0.813rem;
+  font-weight: 300;
+}
